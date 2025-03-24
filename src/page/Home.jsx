@@ -11,7 +11,15 @@ const Home = () => {
         pt: "0",
       }}
     >
-      <h2 style={{ fontSize: "20px", fontWeight: "bold", marginLeft: "20px" }}>
+      <h2
+        style={{
+          display: "flex",
+          justifySelf: "left",
+          fontSize: "20px",
+          fontWeight: "bold",
+          marginLeft: "20px",
+        }}
+      >
         Account Settings
       </h2>
       <hr style={{ width: "100%", border: "1px solid #ccc" }} />
